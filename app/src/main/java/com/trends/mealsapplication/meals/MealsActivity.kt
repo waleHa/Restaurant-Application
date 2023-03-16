@@ -1,7 +1,8 @@
-package com.trends.mealsapplication
+package com.trends.mealsapplication.meals
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.trends.mealsapplication.R
 
 class MealsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
