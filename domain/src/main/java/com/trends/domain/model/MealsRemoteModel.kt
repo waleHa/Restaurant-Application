@@ -5,11 +5,11 @@ import com.google.gson.annotations.SerializedName
 
 data class MealsRemoteModel(
     @SerializedName("idCategory")
-    val idCategory: String,
+    val id: String,
     @SerializedName("strCategory")
-    val strCategory: String,
+    val category: String,
     @SerializedName("strCategoryDescription")
-    val strCategoryDescription: String,
+    val categoryDescription: String,
     @SerializedName("strCategoryThumb")
-    val strCategoryThumb: String
+    val categoryThumb: String
 )

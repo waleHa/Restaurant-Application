@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CircularProgressIndicator" parent="">
+        <item name="indicatorColor">#44FB94</item>
+        <item name="trackThickness">20dp</item>
+    </style>
+</resources>

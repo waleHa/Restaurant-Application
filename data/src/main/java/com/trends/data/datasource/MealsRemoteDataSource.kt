@@ -5,5 +5,5 @@ import retrofit2.http.GET
 
 interface MealsRemoteDataSource {
     @GET("categories.php")
-    fun getMeals(): WrappedMealsRemoteModel
+    suspend fun getMeals(): WrappedMealsRemoteModel
 }

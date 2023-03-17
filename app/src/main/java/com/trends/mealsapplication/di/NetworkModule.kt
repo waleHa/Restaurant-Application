@@ -1,6 +1,7 @@
 package com.trends.mealsapplication.di
 
 
+import com.trends.data.datasource.MealsRemoteDataSource
 import com.trends.domain.model.WrappedMealsRemoteModel
 import com.trends.mealsapplication.BuildConfig
 import dagger.Module
@@ -27,5 +28,5 @@ object NetworkModule {
 
     @Provides
     @Singleton
-    fun provideMealsRemoteDataSource(retrofit: Retrofit) = retrofit.create(WrappedMealsRemoteModel::class.java)
+    fun provideMealsRemoteDataSource(retrofit: Retrofit): MealsRemoteDataSource = retrofit.create(MealsRemoteDataSource::class.java)
 }
